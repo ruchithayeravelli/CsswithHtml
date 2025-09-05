@@ -1,0 +1,32 @@
+
+.container{
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    width: 220px;
+    padding: 20px 18px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.places {
+  display: flex;          /* Arrange items side by side */
+  justify-content: center; /* Center them horizontally */
+  gap: 20px;              /* Space between the divs */
+  flex-wrap: wrap;        /* Allow wrapping on smaller screens */
+  margin-top: 20px;
+}
+
+.container {
+  border: 2px solid white;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  background: #f9f9f9;
+}
+ .container h3{
+    color: green;
+ }
