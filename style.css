@@ -1,0 +1,92 @@
+
+/*
+Box-Model
+---------
+Content- width and height
+Padding- the padding will be the around the Content
+         the padding will be apply the color
+Border- the Border will be around the padding
+        it will be also apply the colors for it
+        and style for border
+Margin- the will be apply the around the element are outside the element
+        the margin will accept -ve values
+        it dose't apply the colors
+
+    note:in the document already default values for 
+            h1,p,div will apply the margin and padding
+            
+            in the projects the margin will be applied top and bottom
+            won't apply left and right
+            
+
+    syx for Box-modal:
+    ------------------
+
+    selectors{
+        margin:value;
+        width:value;
+        height:value;
+        padding:value;
+        border:value;
+    }
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+
+    /* padding: 10px 20px 30px; */
+
+    /* border-top-width: 5px;
+    border-top-color: blue;
+    border-top-style: solid;
+
+    border-right-width: 5px;
+    border-right-color: lightcoral;
+    border-right-style: dashed;
+
+    border-bottom-width: 5px;
+    border-bottom-color: lightgoldenrodyellow;
+    border-bottom-style:dotted ;
+
+    border-left-width: 5px;
+    border-left-color:lightsalmon;
+    border-left-style: groove; */
+
+
+    /* border-color: black;
+    border-style: dashed;
+    border-width:5px ; */
+
+
+    border: 5px dotted gold;
+
+
+    /* margin-top:10px ;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+
+    /* margin:10px 20px 30px 40px ; */
+    /* margin: 10px; */
+
+}
+
+h1{
+    background-color: blueviolet;
+    /* margin: 0; */
+}
+p{
+    background-color: lightcoral;
+    /* margin: 0; */
+}
