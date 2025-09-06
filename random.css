@@ -1,0 +1,17 @@
+.cube,.star{
+    width: 900spx;
+    height: 500px;
+    border: 2px solid;
+    /* margin = gap between them */
+    margin: 5px;  
+}
+.item1,.item2,.item3,.item4{
+    width: 200px;
+    height: 490px;
+    border: 2px solid;
+    margin: 5px;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}

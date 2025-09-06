@@ -1,0 +1,23 @@
+.first-container,.second-container{
+    width: 900px;
+    /* height: 500px; */
+    /* border: 2px solid; */
+    margin: 5PX;
+    
+}
+.item-1,.item-2,.item-3,.item-4{
+    width: 200px;
+    height: 490px;
+    /* border: 2px solid; */
+    margin: 5px;
+    /* for side bye side img we will apply this */
+    display: inline-block;
+
+}
+img{
+    width: 100%;
+}
+h3,p{
+    text-align: center;
+    padding: 5px;
+}

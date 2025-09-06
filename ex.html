@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Layout Example</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      background: #f8f8f8;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .card {
+      width: 250px;
+      border: 2px solid green;
+      padding: 15px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .card img {
+      width: 120px;
+      height: 120px;
+      border: 2px solid green;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    .card .text {
+      display: inline-block;
+      padding: 5px 15px;
+      border: 2px solid green;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .card .para {
+      border: 2px solid green;
+      padding: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/120" alt="Sample Image">
+    <div class="text">Charminar</div>
+    <div class="para">
+      The Charminar is a historical monument in Hyderabad, built in 1591. 
+      It is famous for its four grand minarets and is a symbol of the city’s culture.
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/120" alt="Sample Image">
+    <div class="text">Taj Mahal</div>
+    <div class="para">
+      The Taj Mahal in Agra is one of the Seven Wonders of the World, 
+      built by Shah Jahan in memory of his wife Mumtaz Mahal.
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/120" alt="Sample Image">
+    <div class="text">Qutub Minar</div>
+    <div class="para">
+      The Qutub Minar in Delhi is the tallest brick minaret in the world, 
+      built in the early 13th century and a UNESCO World Heritage Site.
+    </div>
+  </div>
+</body>
+</html>

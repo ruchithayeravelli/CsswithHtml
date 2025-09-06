@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            background-color: lightblue;
+            h1{
+                color: red;    
+            }
+            a{
+                color: brown;
+            }
+            h3{
+                background-color: lightgreen;
+            }
+            ul{
+                color: palevioletred;
+            }
+            p{
+                color: darkslateblue; 
+             }
+             li{
+                background-color: gold;
+             }
+    
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>🌟John Doe's Web Portfolio</h1>
+        <p>Showcasing HTML skills using Tables</p>
+        <a href=""><u>About</u> |</a>
+        <a href=""><u>Skills</u>|</a>
+        <a href=""><u>Projects</u>|</a>
+        <a href=""><u>Contact</u></a>
+    </center>
+    <hr>
+<center>
+    <tbody>
+    <table border="1" width="100%" cellspacing="0" cellpadding="">
+        <tr>
+            <td colspan="2" >
+                <h2>👤 About me</h2>
+                <p >Hello! I am <b>John Doe</b>,a passinote web developer.I love bulidings emantic,accessible, and responsive website using core web technologies.</p>
+                <p>I specialize in fornt end development,especially HTML,CSS, and JavaScript  <img  align="right" src="" alt="John Doe"></p>
+
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="top">
+            <h3>🧠 Skills</h3>
+            <ul >
+                <li>HTML5/CSS3</li>
+                <li>JavaScript(Es6+)</li>
+                <li>Responstive Design</li>
+                <li>Git & Github</li>
+            </ul>
+            <h3>📝 Skill Levels</h3>
+            <table border="1" width="30%" cellspacing="2" cellpadding="5">
+                <tr>
+                    <th>
+                        Skils
+                    </th>
+                    <th>
+                        Level
+                    </th>
+                </tr>
+                <tr>
+                    <td style="color: blueviolet;">HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+    
+            </td>
+            <td width="50%" valign="top">
+                <h3>📁 Projects</h3>
+                <ol>
+                    <li><b>Portfolio Website-</b>My personal porofolio bulit using pure HTMl and CSS.</li>
+                    <li><b>Todo App-</b>A task management tool with vanilla JavaScript.</li>
+                    <li><b>Weather App-</b>A real-time weather dashboard using APis.</li>
+                </ol>
+                <h3>🖼️ Screenshot</h3>
+                <img src="" alt="Project Preview">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h3>📬Contact me</h3>
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <table>
+                        <tr>
+                            <td>Full Name:</td>
+                            <td>
+                                <label for="Fullname"></label>
+                                <input type="text" name="Fullname" id="Fullname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td>
+                                <label for="Email"></label>
+                                <input type="email" name="Email" id="Email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gender:
+                            </td>
+                            <td>
+                                <input type="radio" name="Gender" id="male" value="Male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="Gender" id="Female" value="Female">
+                                <label for="female">Female</label>                              
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Services Interested:</td>
+                            <td>
+                                <input type="checkbox" name="wed" id="webdesign">
+                                <label for="webdesign">Web design</label> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Country:</td>
+                            <td>
+                                <select name="country" id="country">
+                                <option value="usa" selected>USA</option>
+                                <option value="india">India</option>
+                                <option value="uk">UK</option>
+                                <option value="canada">Canada</option>
+                                <option value="australia">Australia</option>
+                                </select>                               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: indigo;">Message:</td>
+                            <td>
+                                <label for="area" style="color: orange;"></label>
+                                <textarea 
+                                type="text"name=address rows="5" cols="30" id="area" style="color: blueviolet;">
+                                </textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+        <tr >
+            <td colspan="2">
+                <center>
+                    <p style="color: red;">📅Last Updated:August 13,2025</p>
+                    <p>
+                    <small>Created by John Doe</small>
+                    <br>
+                    <small>Email:<a href="Emailto:john@exmaple.com">John@example.com</a></small>
+                    <br>
+                    <small>Website:<a href="example.com">example.com</a></small>
+                    </p>
+                    <p>
+                       @ 2025 John Doe.All right reserved.
+                    </p>
+
+                </center>
+
+            </td>
+        </tr>
+    </table>
+</center>
+</tbody>
+</body>
+</html>
