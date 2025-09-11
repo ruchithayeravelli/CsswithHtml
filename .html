@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BR Architects Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Reset some default spacing */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;                   /* Flexbox for left/right layout */
+  justify-content: space-between;  /* Space between logo and links */
+  align-items: center;             /* Vertically center */
+  padding: 14px 20px;
+  border-bottom: 1px solid #ddd;   /* Thin bottom line */
+  background-color: white;         /* White background */
+  position: sticky;                /* Sticks to top on scroll */
+  top: 0;
+}
+
+/* Logo (left side) */
+.logo {
+  font-size: 20px;
+  letter-spacing: 3px; /* Adds space between letters */
+}
+
+/* Navigation links (right side) */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;   /* Space between items */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.nav-links li a:hover {
+  color: gray;
+}
+
+</style>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"> <b>BR</b> Architects </div>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
